@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('wallpaper.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.welcome h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.options select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.background {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro ul {
+    list-style: none;
+    padding: 0;
+}
+
+.intro li {
+    margin-bottom: 10px;
+}
+
+.image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.disclaimer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.disclaimer img{
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+}
+
+.disclaimer p {
+    margin-bottom: 10px;
+}
+
+.search {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#searchfor {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.search img{
+    width: 50px;
+    height: 50px;
+}
+
+#searchButton {
+    background-color: #b0b0b0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category h2 {
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.course {
+    text-align: center;
+    color: aquamarine;
+    height: 200px;
+    border: 2px solid #abedff;
+    padding: 20px;
+    border-radius: 50px;
+    flex: 1;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.course:last-child {
+    margin-right: 0;
+}
+
+.course img {
+    width: 150px;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    flex: 1;
+}
+
+.social {
+    flex: 1;
+    text-align: right;
+}
+
+.social img {
+    width: 80px;
+    height:80px;
+}
